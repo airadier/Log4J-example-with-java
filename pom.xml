@@ -15,11 +15,8 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>${log4j.version}</version>
-		</dependency>
+<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.14.0" />
+  <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.14.0" />
 
 	</dependencies>
 
